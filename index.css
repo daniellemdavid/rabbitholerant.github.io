@@ -1,4 +1,113 @@
-h1{
-border-top: 500px solid salmon;
-font-size: 100px;
+header{
+	background-color: white;
+	text-align: center;
+	font-size: 200%;
+	margin-top: 50px;
+	font-family: 'Poiret One', cursive;
+}	
+h2{
+	font-size: 75%;
+}
+h3{
+	text-align:center;
+	font-size: 150%;
+}
+body{
+	margin-top:100px;
+	font-family: 'Poiret One', cursive;
+}
+nav{
+	position:fixed;
+	top: 0;
+	width: 100%;
+	background-color: salmon;
+	height: 70px;
+}
+ul{
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+	
+}
+nav li{
+	float: left;
+	
+}
+nav li a{
+	display: block;
+	padding: 25px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	height:20px;
+}
+nav a:hover {
+	background-color: black;
+}
+nav a:active{
+	
+	background-color: gray;
+	text-decoration: none;
+}
+nav a:link{
+	text-decoration: none;
+	color: white;
+}
+main{
+	background-color: black;
+	color: white;
+	border-left: 20px dotted white;	
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.indexmain p{
+	display:inline-block;
+	color: white;
+	font-size: 30px;
+	width:100%;
+	top:0;
+	height: 300px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-right: 2px solid white;
+	font-family: 'Amatic SC', cursive;
+	}
+.indexmain p img{
+	max-width: 20%;
+	height:80%;
+	float: left;
+	margin-right: 20px;
+	padding-left: 5px;
+	border-radius: 50px;
+}
+p .blogimg{
+	width: 20%;
+	margin-left: 40%;
+	margin-right: auto;
+	border: 5px solid salmon;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+a{
+	color: salmon;
+	text-decoration: none;
+}
+.blogmain p{
+	margin-left: 50px;
+	margin-right: 60px;
+	width:95%;
+	font-family: 'Amatic SC', cursive;
+	color: white;
+	font-size: 30px;
+}
+#authordate{
+	text-align:left;
+}
+footer{
+	border-bottom: 5px solid salmon;
+	width:100%;
 }
