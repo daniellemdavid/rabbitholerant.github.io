@@ -107,6 +107,24 @@ a{
 #authordate{
 	text-align:left;
 }
+table{
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	border: 10px solid salmon;
+	height: 500px;
+	}
+th{
+	font-size: 40px;
+	font-weight: bold;
+	background-color: salmon;
+	width: 120%;
+	}
+td{	
+	width: 40px;
+	border-bottom: .5px solid salmon;
+	border-right: .5px solid salmon;
+}
 footer{
 	border-bottom: 5px solid salmon;
 	width:100%;
