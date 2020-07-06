@@ -125,6 +125,17 @@ td{
 	border-bottom: .5px solid salmon;
 	border-right: .5px solid salmon;
 }
+.rightaside{
+	float: right;
+	margin-right: 25px;
+	max-width: 16%;
+}
+.leftaside{
+	float: left;
+	border: 13px solid salmon;
+	margin-left: 50px;
+	margin-top:300px;
+}
 footer{
 	border-bottom: 5px solid salmon;
 	width:100%;
