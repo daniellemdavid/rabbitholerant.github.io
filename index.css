@@ -15,6 +15,7 @@ h3{
 body{
 	margin-top:100px;
 	font-family: 'Poiret One', cursive;	
+	width: 90%;
 }
 nav{
 	position:fixed;
@@ -133,11 +134,12 @@ td{
 .leftaside{
 	float: left;
 	border: 13px solid salmon;
-	margin-left: 50px;
-	margin-top:300px;
+	margin-left: 25px;
 }
 footer{
 	border-bottom: 5px solid salmon;
 	width:100%;
 	text-align: center;
+	height: 500px;
+	margin-bottom:0px;
 }
