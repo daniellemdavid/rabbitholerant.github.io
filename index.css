@@ -1,3 +1,8 @@
+body{
+	margin-top:100px;
+	font-family: 'Poiret One', cursive;	
+}
+/*headings*/
 header{
 	background-color: white;
 	text-align: center;
@@ -5,66 +10,50 @@ header{
 	margin-top: 50px;
 	font-family: 'Poiret One', cursive;
 }	
+
 h2{
 	font-size: 75%;
+	line-height: 
 }
+
 h3{
 	text-align:center;
 	font-size: 150%;
 }
-body{
-	margin-top:100px;
-	font-family: 'Poiret One', cursive;	
-	width: 90%;
-}
+/*nav*/
 nav{
 	position:fixed;
-	top: 0;
-	width: 100%;
+	top:0;
 	background-color: salmon;
 	height: 70px;
 }
-ul{
+
+nav ul{
 	width: 100%;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	
-	
 }
+
 nav li{
 	float: left;
 	
 }
-nav li a{
-	display: block;
-	padding: 25px;
-	text-align: center;
-	color: white;
-	text-decoration: none;
-	height:20px;
-}
-nav a:hover {
-	background-color: black;
-}
-nav a:active{
-	
-	background-color: gray;
-	text-decoration: none;
-}
-nav a:link{
-	text-decoration: none;
-	color: white;
-}
+/*main*/
 main{
 	background-color: black;
 	color: white;
 	border-left: 20px dotted white;	
-	width: 60%;
+	border-radius: 1px;
+	padding-right: 45px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 45%;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right:auto;
 }
+/*paragraphs*/
 .indexmain p{
 	display:inline-block;
 	color: white;
@@ -72,16 +61,40 @@ main{
 	width:100%;
 	top:0;
 	height: 300px;
-	margin-left: 10px;
-	margin-right: 10px;
 	border-right: 2px solid white;
 	font-family: 'Amatic SC', cursive;
 	}
+.authordate{
+	text-align:left;
+}
+.blogmain p{
+	margin-left: 50px;
+	margin-right: 60px;
+	width:95%;
+	font-family: 'Amatic SC', cursive;
+	color: white;
+	font-size: 30px;
+}
+
+/* Aside*/
+.rightaside{
+	float: right;
+}
+.leftaside{
+	float: left;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 5px;
+	width: 300px;
+	text-align:center;
+}
+
+/*images*/
 .indexmain p img{
 	max-width: 20%;
 	height:80%;
 	float: left;
-	margin-right: 20px;
+	margin-right: 25px;
 	padding-left: 5px;
 	border-radius: 50px;
 }
@@ -93,21 +106,8 @@ p .blogimg{
 	padding: 10px;
 	margin-bottom: 50px;
 }
-a{
-	color: salmon;
-	text-decoration: none;
-}
-.blogmain p{
-	margin-left: 50px;
-	margin-right: 60px;
-	width:95%;
-	font-family: 'Amatic SC', cursive;
-	color: white;
-	font-size: 30px;
-}
-.authordate{
-	text-align:left;
-}
+
+/*table*/
 table{
 	margin-left:auto;
 	margin-right:auto;
@@ -126,20 +126,91 @@ td{
 	border-bottom: .5px solid salmon;
 	border-right: .5px solid salmon;
 }
-.rightaside{
-	float: right;
-	margin-right: 25px;
-	max-width: 16%;
-}
-.leftaside{
-	float: left;
-	border: 13px solid salmon;
-	margin-left: 25px;
-}
+/*footer*/
 footer{
 	border-bottom: 5px solid salmon;
-	width:110%;
+	line-height: 30px;
+	width:100%;
 	text-align: center;
-	height: 500px;
-	margin-bottom:0px;
+	margin-bottom:25px;
+}
+
+/*links*/
+
+nav li a{
+	display: block;
+	padding: 25px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	height:20px;
+}
+
+nav a:hover {
+	background-color: black;
+}
+
+nav a:active{
+	
+	background-color: gray;
+	text-decoration: none;
+}
+
+nav a:link{
+	text-decoration: none;
+	color: white;
+}
+
+a{
+	color: salmon;
+	text-decoration: none;
+}
+
+/*Goodreads widget css*/
+.gr_custom_container_ {
+/* customize your Goodreads widget container here*/
+border: 1px solid black;
+border-radius:10px;
+padding: 10px 5px 10px 5px;
+background-color: #FFF;
+color: #000;
+width: 300px
+}
+.gr_custom_header_ {
+/* customize your Goodreads header here*/
+border-bottom: 1px solid gray;
+width: 100%;
+margin-bottom: 5px;
+text-align: center;
+font-size: 120%
+}
+.gr_custom_each_container_ {
+/* customize each individual book container here */
+width: 100%;
+clear: both;
+margin-bottom: 10px;
+overflow: auto;
+padding-bottom: 4px;
+border-bottom: 1px solid #aaa;
+}
+.gr_custom_book_container_ {
+/* customize your book covers here */
+overflow: hidden;
+height: 60px;
+  float: left;
+  margin-right: 4px;
+  width: 39px;
+}
+.gr_custom_author_ {
+/* customize your author names here */
+font-size: 10px;
+}
+.gr_custom_tags_ {
+/* customize your tags here */
+font-size: 10px;
+color: gray;
+}
+.gr_custom_rating_ {
+/* customize your rating stars here */
+float: right;
 }
