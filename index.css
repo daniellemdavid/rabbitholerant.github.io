@@ -1,5 +1,5 @@
 body{
-	margin-top:100px;
+	margin-top:80px;
 	font-family: 'Poiret One', cursive;	
 }
 /*headings*/
@@ -13,7 +13,7 @@ header{
 
 h2{
 	font-size: 75%;
-	line-height: 
+	line-height: 50px;
 }
 
 h3{
@@ -26,6 +26,8 @@ nav{
 	top:0;
 	background-color: salmon;
 	height: 70px;
+	width: 99%;
+	font-family: 'Amatic SC', cursive;
 }
 
 nav ul{
@@ -40,12 +42,19 @@ nav li{
 	float: left;
 	
 }
+#tagline{
+	top: 23px;
+	right: 12px;
+	float:right;
+	position: fixed;
+	color: white;
+}
 /*main*/
 main{
 	background-color: black;
 	color: white;
-	border-left: 20px dotted white;	
-	border-radius: 1px;
+	border-left: 25px dotted white;	
+	border-radius: 2px;
 	padding-right: 45px;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -59,9 +68,9 @@ main{
 	color: white;
 	font-size: 30px;
 	width:100%;
+	margin-left: 50px;
 	top:0;
 	height: 300px;
-	border-right: 2px solid white;
 	font-family: 'Amatic SC', cursive;
 	}
 .authordate{
