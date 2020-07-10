@@ -165,10 +165,11 @@ td{
 /*footer*/
 footer{
 	border-bottom: 5px solid salmon;
-	line-height: 30px;
+	line-height: 50px;
 	width:100%;
 	text-align: center;
 	margin-bottom:25px;
+	margin-top: 50px;
 }
 
 /*links*/
