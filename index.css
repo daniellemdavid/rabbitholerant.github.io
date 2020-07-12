@@ -9,19 +9,6 @@ body{
 }
 /*headings*/
 header{
-	/*background-color: white;
-	text-align: center;
-	font-size: 200%;
-	margin-top: 80px;
-	font-family: 'Poiret One', cursive;
-	position:fixed;
-	top:0;
-	background-color: salmon;
-	height: 70px;
-	width: 99%;
-	max-width:1300px;
-	min-width:1300px;
-	font-family: 'Amatic SC', cursive;*/
 	margin-left:auto;
 	margin-right:auto;
 	left:0;
@@ -81,7 +68,6 @@ nav#tagline{
 main{
 	background-color: black;
 	color: white;
-	/*border-left: 25px dotted white;*/
 	border-radius: 10px;
 	padding-top:20px;
 	padding-bottom: 20px;
